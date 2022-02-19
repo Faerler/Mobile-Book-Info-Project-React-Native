@@ -1,10 +1,16 @@
 {
   "expo": {
-    "name": "proje",
+    "name": "Advice",
     "slug": "proje",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "icon": "./assets/icon.png",
+    "privacy": "public",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -20,6 +26,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.burakcagan.advice",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
